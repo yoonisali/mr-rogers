@@ -4,6 +4,7 @@ body {
   font-size: 25px;
   background-color: #002D5B;
   color: white;
+  padding-bottom: 30px;
 }
 
 ul {
@@ -11,8 +12,7 @@ ul {
 }
 
 img {
-  width: 500px;
-  height: 400px;
-  float: left;
+  width: 400px;
+  height: 300px;
 }
 

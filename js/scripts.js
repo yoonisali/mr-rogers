@@ -47,5 +47,7 @@ window.addEventListener("load", function () {
     event.preventDefault();
     const input = parseInt(document.getElementById("number").value);
     rogersNumbers(input);
+    
   });
+  
 });

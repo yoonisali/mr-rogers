@@ -2,9 +2,17 @@ body {
   text-align: center;
   padding-top: 20px;
   font-size: 25px;
-  background-color: lavender;
+  background-color: #002D5B;
+  color: white;
 }
 
 ul {
   list-style: none;
 }
+
+img {
+  width: 500px;
+  height: 400px;
+  float: left;
+}
+

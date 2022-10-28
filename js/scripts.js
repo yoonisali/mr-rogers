@@ -33,3 +33,9 @@ console.log(rogersNumbers(5));
 console.log(final);
 
 // UI Logic
+
+
+window.addEventListener("load", function () {
+  const form = document.getElementById("rogerthat");
+  form.addEventListener("submit", rogersNumbers);
+});

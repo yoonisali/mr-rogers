@@ -5,7 +5,6 @@ function rogersNumbers(input) {
   for (let index = 0; index <= input; index++) {
     numbersArray.push(index.toString());
   }
-
   rogersSpeaks();
 }
 

@@ -37,14 +37,14 @@ Test: "if number contains 1 -> returns beep!
        if number contains 3 -> returns won't you be my neighbor?
        else -> it returns the number"
 Code: rogersSpeaks(5);
-Expected Output: [0, beep!, boop!, won't you be my neighbor?]
+Expected Output: [0, beep!, boop!, won't you be my neighbor?, 4, 5]
 ```
 
 ```
 Describe: rogersPrints();
 Test: "It should create li and ul html tags, while also printing the output"
 Code: rogersPrints(5);
-Expected Output: [0, beep!, boop!, won't you be my neighbor?]
+Expected Output: [0, beep!, boop!, won't you be my neighbor?, 4, 5]
 ```
 
 ## Known Bugs

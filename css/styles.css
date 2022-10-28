@@ -4,3 +4,7 @@ body {
   font-size: 25px;
   background-color: lavender;
 }
+
+ul {
+  list-style: none;
+}

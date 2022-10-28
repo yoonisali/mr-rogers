@@ -27,6 +27,17 @@ function rogersSpeaks() {
     }
   });
   final = rogers;
+
+  rogersPrints();
+}
+
+function rogersPrints() {
+  const ul = document.getElementById("output");
+  final.forEach(function (element) {
+    let li = document.createElement("li");
+    li.append(element);
+    ul.append(li);
+  });
 }
 
 // UI Logic

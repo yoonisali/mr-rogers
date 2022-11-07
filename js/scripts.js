@@ -15,12 +15,12 @@ let final = [];
 
 function rogersSpeaks() {
   let rogers = numbersArray.map(function (number) {
-    if (number.includes("1")) {
-      return beep;
+    if (number.includes("3")) {
+      return neighbor;
     } else if (number.includes("2")) {
       return boop;
-    } else if (number.includes("3")) {
-      return neighbor;
+    } else if (number.includes("1")) {
+      return beep;
     } else {
       return number;
     }
